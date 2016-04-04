@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flow xmlns="urn:opendaylight:flow:inventory">
+    <strict>false</strict>
+    <instructions>
+        <instruction>
+            <order>0</order>
+            <apply-actions>
+                <action>
+                    <order>0</order>
+                    <drop-action/>
+        
+                
+                </action>
+
+            
+            </apply-actions>
+    
+        
+        </instruction>
+    
+    </instructions>
+    <table_id>0</table_id>
+    <id>99</id>
+    <cookie_mask>255</cookie_mask>
+    <match>
+       
+        <ethernet-match>
+            <ethernet-type>
+                <type>2048</type>
+            </ethernet-type>
+            <ethernet-destination>
+                <address>1a:26:81:a0:d3:fe</address>  
+            </ethernet-destination>
+        </ethernet-match>
+        
+    </match>
+<hard-timeout>0</hard-timeout>
+<cookie>7</cookie>
+<idle-timeout>0</idle-timeout>
+<flow-name>admin</flow-name>
+<priority>32</priority>
+<barrier>false</barrier>
+</flow>

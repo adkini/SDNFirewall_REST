@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<table xmlns="urn:opendaylight:flow:inventory">
+<id>0</id>
+<flow>
+    <strict>false</strict>
+    <instructions>
+        <instruction>
+            <order>0</order>
+            <apply-actions>
+                <action>
+                    <order>0</order>
+                    <drop-action/>
+                </action>
+            </apply-actions>
+        </instruction>
+    </instructions>
+    <table_id>0</table_id>
+    <id>127</id>
+    <cookie_mask>255</cookie_mask>
+    <installHw>false</installHw>
+    <match>
+        <ethernet-match>
+            <ethernet-type>
+                <type>2048</type>
+            </ethernet-type>
+        </ethernet-match>
+        <in-port>2</in-port>
+    </match>
+        
+<hard-timeout>0</hard-timeout>
+<cookie>1</cookie>
+<idle-timeout>0</idle-timeout>
+<flow-name>FooXf4</flow-name>
+<priority>80</priority>
+<barrier>false</barrier>
+</flow>
+<flow>
+<strict>false</strict>
+    <instructions>
+        <instruction>
+            <order>0</order>
+            <apply-actions>
+                <action>
+                    <order>0</order>
+                    <drop-action/>
+                </action>
+            </apply-actions>
+        </instruction>
+    </instructions>
+    <table_id>0</table_id>
+    <id>129</id>
+    <cookie_mask>255</cookie_mask>
+    <installHw>false</installHw>
+    <match>
+        <ethernet-match>
+            <ethernet-type>
+                <type>2048</type>
+            </ethernet-type>
+        </ethernet-match>
+        <in-port>1</in-port>
+    </match>
+        
+<hard-timeout>0</hard-timeout>
+<cookie>1</cookie>
+<idle-timeout>0</idle-timeout>
+<flow-name>FooXf4</flow-name>
+<priority>80</priority>
+<barrier>false</barrier>
+</flow>
+<flow>
+<strict>false</strict>
+    <instructions>
+        <instruction>
+            <order>0</order>
+            <apply-actions>
+                <action>
+                    <order>0</order>
+                    <output-action>
+                    <output-node-connector>NORMAL</output-node-connector>
+                    </output-action>
+                </action>
+            </apply-actions>
+        </instruction>
+    </instructions>
+    <table_id>0</table_id>
+    <id>128</id>
+    <cookie_mask>255</cookie_mask>
+    <installHw>false</installHw>
+    <match>
+        <ethernet-match>
+            <ethernet-type>
+                <type>2048</type>
+            </ethernet-type>
+        </ethernet-match>
+        <ipv4-source>10.0.0.1/32</ipv4-source>
+        <ipv4-destination>10.0.0.4/32</ipv4-destination>
+         
+    </match>
+<hard-timeout>0</hard-timeout>
+<cookie>1</cookie>
+<idle-timeout>0</idle-timeout>
+<flow-name>FooXf5</flow-name>
+<priority>90</priority>
+<barrier>false</barrier>
+</flow>
+
+<flow>
+<strict>false</strict>
+    <instructions>
+        <instruction>
+            <order>0</order>
+            <apply-actions>
+                <action>
+                    <order>0</order>
+                    <output-action>
+                    <output-node-connector>NORMAL</output-node-connector>
+                    </output-action>
+                </action>
+            </apply-actions>
+        </instruction>
+    </instructions>
+    <table_id>0</table_id>
+    <id>130</id>
+    <cookie_mask>255</cookie_mask>
+    <installHw>false</installHw>
+    <match>
+        <ethernet-match>
+            <ethernet-type>
+                <type>2048</type>
+            </ethernet-type>
+        </ethernet-match>
+        <ipv4-source>10.0.0.4/32</ipv4-source>
+        <ipv4-destination>10.0.0.1/32</ipv4-destination>
+         
+     </match>
+<hard-timeout>0</hard-timeout>
+<cookie>1</cookie>
+<idle-timeout>0</idle-timeout>
+<flow-name>FooXf5</flow-name>
+<priority>90</priority>
+<barrier>false</barrier>
+</flow>
+</table>
+
