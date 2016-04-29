@@ -2,7 +2,7 @@
 
 This folder contains flows related to layer 4 (TCP/UDP)  
 
-This is the sample topology:![picture](topo.png)  
+This is the sample topology:![picture](/topo.png)  
 
 Flow 'Deny_udp':
 

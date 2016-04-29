@@ -2,7 +2,7 @@
 
 This folder contains flows related to Layer 3 (Ip addresses).  
 
-This is the sample topology: ![picture](topo.png).   
+This is the sample topology: ![picture](/topo.png).   
 
 
 Flow 'Deny_ip_dest':  

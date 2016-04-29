@@ -3,7 +3,7 @@
 This folder contains miscellaneous flows.  
 
 
-This is the sample topology: ![picture](topo.png).  
+This is the sample topology: ![picture](/topo.png).  
 
 ## Flow 'Allow_AfterBlacklist_usingL3Address':  
 Implement universal blacklist. Permit all traffic between Host A and Host D using Layer 3 addresses. Verify using random ICMP, UDP and TCP ports.  
