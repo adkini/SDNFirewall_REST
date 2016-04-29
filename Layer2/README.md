@@ -2,7 +2,7 @@
 
 This folder contains flows related to Layer 2  
 
-This is the sample toplogy:![picture](topo.png)     
+This is the sample toplogy:![picture](/topo.png)     
 
 Flow 'Deny_ethernet_src':  
 
